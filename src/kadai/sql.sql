@@ -1,5 +1,7 @@
 CREATE DATABASE instruction;
 
+USE instruction;
+
 CREATE TABLE 家計簿( 
     日付 DATE
     , 費目ID INTEGER
