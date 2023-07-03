@@ -9,3 +9,8 @@ CREATE TABLE 家計簿(
     , 入金額 INTEGER
     , 出金額 INTEGER
 )
+
+INSERT INTO 家計簿 
+VALUES ('2023/7/04', NULL, 'コーヒーを飲んだ', 100, 100)
+
+
