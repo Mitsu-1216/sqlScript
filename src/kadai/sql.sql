@@ -24,3 +24,6 @@ WHERE メモ LIKE '%コーヒー%'
 
 SELECT k.* FROM 家計簿 k
 WHERE メモ LIKE '%コーヒー%'
+
+SELECT k.* FROM 家計簿 k
+WHERE メモ NOT IN('食費')
