@@ -1,3 +1,4 @@
+-- H28.autumn No.25
 CREATE TABLE SOCCERTEAM( 
     NAME CHAR
 )
