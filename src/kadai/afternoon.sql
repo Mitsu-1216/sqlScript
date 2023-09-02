@@ -11,3 +11,7 @@ WITH句はWITH 相関名 AS (SELECT文);
 INSERT INTO 月次レポート(従業員番号,レポート年月)
 SELECT 従業員番号,：レポート年月
 FROM 従業員
+
+SELECT クラス名,AVG(点数) FROM 試験結果
+WHERE 受験年月日 BETWEEN '2018-04-01' AND '2019-03-31'
+GROUP BY クラス名 HAVING AVG(点数) >= 600
