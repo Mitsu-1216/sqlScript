@@ -37,7 +37,6 @@ SELECT
 FROM
     部門別売上 
 UNION ( 
-
     SELECT
         部門コード
         , '第2期' AS 期
