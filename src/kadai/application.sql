@@ -46,6 +46,7 @@ FROM
 WHERE
     A.チーム名 < b.チーム名 
     AND C.所属チーム名 NOT IN (A.チーム名,B.チーム名);
+--　WHERE NOT (C.所属チーム名 = A.チーム名 OR C.所属チーム名 = B.チーム名);
 
 -- ウ
     SELECT
