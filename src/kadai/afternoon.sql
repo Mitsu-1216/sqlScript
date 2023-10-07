@@ -16,3 +16,12 @@ FROM 従業員
 SELECT クラス名,AVG(点数) FROM 試験結果
 WHERE 受験年月日 BETWEEN '2018-04-01' AND '2019-03-31'
 GROUP BY クラス名 HAVING AVG(点数) >= 600
+
+--削除するとき、それを参照する行も削除
+CASCADE
+
+--2つの表の両方にある結果を返したいとき
+INTERSECT
+
+-- 削除するとき、参照する行があるとき、削除を禁止する
+RESTRICT
