@@ -8,5 +8,5 @@ CREATE TABLE users(
     , password VARCHAR(100)
 )
 
--- INSERT INTO 家計簿 
--- VALUES ('2023/7/04', NULL, 'コーヒーを飲んだ', 100, 100)
+INSERT INTO users 
+VALUES (1, 'admin', 'admin')
