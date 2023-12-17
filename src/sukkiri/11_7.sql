@@ -1,3 +1,6 @@
 --CREAT VIEW ビュー名 AS SELECT文
 --DROP VIEW ビュー名
 
+CREATE VIEW 家計簿4月 AS
+SELECT * FROM 家計簿
+WHERE 日付 >= '2018-04-01'
