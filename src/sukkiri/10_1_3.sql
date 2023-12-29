@@ -1,0 +1,2 @@
+--GRANT 権限名 TO ユーザー名
+--REVOKE 権限名 FROM ユーザー名
